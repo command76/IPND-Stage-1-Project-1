@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
+text that will be ignored by the computer! -->
+<!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<html>
+<head> <!-- The head tag includes important information about the page -->
+  <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
+  This will allow the browser to display certain characters (such as non-Roman letters) correctly.
+  You should include this line in the head of all of your webpages. -->
+  <title>My Notes</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
+  <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
+</head>
+<body class="body"> <!-- The body tag is where the "flesh" of your HTML goes -->
+<!--This is where the content begins-->
+  <div id="headerdiv">
+    <h1 id="pagetitle">Class Notes</h1>
+      <div>
+        <div>
+          <img id="banner" src="images/20140525_151434000_iOS.jpg" alt="Breaking Through Knowledge Holes">
+        </div>
+        <div>
+          <h2 id="mainheader" class="h2">Notes on How the World Wide Web Works</h2>
+            <p class="p">
+              Clients interact with servers through http. When visiting a webpage an HTTP request is sent to the server and the server finds the appropriate HTML doc and sents it back to the computer then the web browser interprets and displays it.
+            </p>
+        </div>
+        <div>
+          <h2 class="h2">Notes on Inline or Block</h2>
+            <p class="p">
+              HTML elements are either inline or block. Elements form an invisible block around the content inside them.
+            </p>
+        </div>
+        <div>
+          <h2 class="h2">Notes on Tree Like Structures</h2>
+            <p class="p">
+              Tree like structure identifies how in HTML boxes are inside of boxes. The more indented an element is the more deeply nested its corresponding box is. When programmers talk about Document Object Models (DOM's) they are talking about the treelike structure of a webpage.
+            </p>
+        </div>
+        <div>
+          <h2 class="h2">Notes on Cascading Style Sheets</h2>
+            <p class="p">
+              It is recommended to avoid repitition and to be consistent when working with CSS. CSS helps programmers control the style of related HTML elements by giving elements the same class name and specifying the style that should apply for the class.
+            </p>
+            <p class="p">
+              You can have several CSS files or sheets that will be referenced in html and all of them will be used to find out the final or visible style for your page. Concept of most specific rule applied is what the word cascading means.  You go down and down into the rules until you find the one that best describes the elements and then that rule gets applied.
+            </p>
+            <p class="p">
+              <b>Selector</b> The name that you use in order to target the elements that are assigned to a class or ID attribute in the html.
+            </p>
+            <p class="p">
+              <b>Class</b> Refers to a group of elements that can be styled together.  Should not contain periods or punctuation marks.
+            </p>
+        </div>
+        <div>
+          <h2 class="h2">Code Test Refine</h2>
+            <ol>
+              <li>Look for natural boxes</li>
+              <li>Look for repeated styles and semantic elements</li>
+              <li>Write your html</li>
+              <li>Apply styles (from biggest to smallest)</li>
+              <li>Fix things</li>
+            </ol>
+        </div>
+        <div>
+          <p class="p"></p>
+            <hr>
+              <a href="https://www.youtube.com/watch?v=-RT3cx1b9ZM">You've reached the end</a>
+        </div>
+  <!-- This is where the content ends-->
+      </div>
+  </div>
+<!-- Write your HTML here -->
+</body>
+</html>
